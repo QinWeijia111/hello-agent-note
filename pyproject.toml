@@ -1,0 +1,11 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.8.1",
+    "requests>=2.32.5",
+    "tavily-python>=0.7.13",
+]
