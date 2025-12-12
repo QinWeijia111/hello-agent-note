@@ -5,14 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "agentscope>=1.0.9",
     "asyncio>=4.0.0",
     "autogen-agentchat>=0.7.5",
     "autogen-ext[azure,openai]>=0.7.5",
+    "dashscope>=1.25.3",
     "dotenv>=0.9.9",
     "google-search-results>=2.4.2",
     "openai>=1.0.0",
     "pandas>=2.0.0",
     "plotly>=5.15.0",
+    "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "requests>=2.31.0",
     "streamlit>=1.28.0",
